@@ -1,0 +1,141 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Quattrocento:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Quattrocento:wght@400;700&display=swap');
+
+header{
+  background-color: slategray;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+body{
+  min-height:400px ;
+  overflow: scroll;
+  margin-bottom: 100px;
+  clear:both;
+  font-family: 'Oswald', sans-serif;
+  background-color: blue;
+}
+
+h1{
+    font-weight: 700;
+}
+
+h2{
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+  font-size: 2.441em;
+  background-color: slategray;
+  border:1px solid yellow;
+  color: white;
+  font-weight: 500;
+  word-spacing: .2em;
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+}
+h3{
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+  font-size: 25px;
+  color:silver;
+  font-weight: 300;
+  word-spacing: .2em;
+  margin: 0px;
+  text-align: right;
+  padding: 10px;
+}
+
+
+
+#navbar{
+  
+  overflow: hidden;
+  background-color: blue;
+  border-style: solid 15px #D6A800;
+
+}
+#navbar a {
+  float: left;
+  display: block;
+  color:Silver;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar a:hover{
+  color: red;
+}
+
+#container{
+
+  padding: 10px;
+}
+
+
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.
+.accomplish{
+  text-align: left;
+}
+
+.easteregg{
+  text-align: right;
+}
+
+.damianlillard{
+  text-align: right;
+}
+.figure a-img {
+  width: 250px;
+  height: 250px;
+ }
+ td{
+  border:  blue;
+  padding:8px;
+  }
+
+#left {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+footer{
+  background-color:slategray;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0px;
+}
+.left-footer{
+  float: left;
+}
+
+.right-footer{
+  float: right;
+}
+
+footer p {
+  color: red;
+  font-weight: 400;
+  padding-right: 10px;
+  font-style: italic;
+}
+footer a {
+    color: red;
+    text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: black
+}
